@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.clicker{
+  cursor: pointer;
+}
+.tbody_microposts tr td a{
+  margin-right: 10px;
+}
